@@ -1,0 +1,150 @@
+/* Base Layout */
+
+* {
+ box-sizing: border-box;
+
+}
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+fieldset {
+  border: 0;
+}
+
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+  /* Main Layout Styles */
+
+ header {
+   font-family: 'Nunito', sans-serif;
+   font-weight: 400px;
+   margin-bottom: 100px;
+   text-align: center;
+}
+
+.header-banner{
+  padding: 25px;
+  margin: 25px 10px;
+  background-color: black;
+  margin-left: auto;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  width: 100%;
+
+}
+
+.legend {
+   border-top: 3px solid;
+   width: 100%;
+   font-weight: bold;
+   font-size: 20px;
+}
+
+.header-p{
+ color: lightgray;
+ font-size: 19px;
+ border-bottom: 5px solid rgba(6,65,90);
+}
+
+header{
+  /* border-bottom-style: double; */
+}
+
+.newsletter{
+  width: 100%;
+  border-top: 3px solid;
+}
+
+.lower-p {
+  color: lightgray;
+  font-size: 19px;
+}
+
+input {
+ width: 100%;
+ margin: 5px 0;
+ padding: 8px;
+ font-size: 18px;
+ color: #333;
+ font-family: 'Nunito', sans-serif;
+}
+
+::placeholder {
+  text-align: right;
+}
+
+input[type=text],
+input[type=email],
+input[type=phone],
+input[type=address],
+input[type=city],
+input[type=state],
+input[type=zipcode] {
+ border: 4px solid;
+ border-radius: 5px;
+ background-color: ghostwhite;
+}
+
+input:focus {
+  -webkit-transition: width 0.5s ease-in-out;
+   transition: width 0.5s ease-in-out;
+   width: 105%;
+   background-color: lightblue;
+
+}
+
+
+
+select {
+  border: 4px solid;
+  border-radius: 5px;
+  background-color: ghostwhite;
+  width: 100%;
+  margin: 5px 0;
+  padding: 8px;
+  color: #333;
+  font-family: 'Nunito', sans-serif;
+ }
+
+ .newsletter {
+   width: 100%;
+   font-weight: bold;
+   font-size: 20px;
+ }
+
+
+
+input[type="checkbox"],
+input[type="radio"] {
+    display:inline-block;
+    width: auto;
+    margin: 10px 15px 15px 5px;
+    font-size: 18px;}
+
+
+
+textarea {
+ width: 100%;
+ height: 120px;
+ padding: 15px 22px;
+ box-sizing: border-box;
+ border: 4px solid #ccc;
+ border-radius: 5px;
+ background-color: ghostwhite;
+ resize: none;
+}
