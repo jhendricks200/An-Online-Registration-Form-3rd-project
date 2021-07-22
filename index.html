@@ -19,32 +19,50 @@
    <fieldset>
      <legend class="legend">Contact Information</legend>
 
-     <label for="name">Full Name</label>
-     <input type="text" id="name" placeholder="Required" name="user-name"><br>
+      <div class="wrapper">
+        <div class="form-row">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" placeholder="Required" name="user-name">
+     </div><br>
 
-     <label for="email">Email Address</label>
-     <input type="email" id="email" placeholder="Required" name="user-email"><br>
+      <div class="form-row">
+      <label for="email">Email Address</label>
+      <input type="email" id="email" placeholder="Required" name="user-email">
+    </div><br>
 
-     <label for="phone">Phone Number</label>
-     <input type="phone" id="phone" placeholder="Optional" name="user-phone"><br>
+     <div class="form-row">
+     <label for="tel">Phone Number</label>
+     <input type="tel" id="tel" placeholder="Optional" name="user-phone">
+    </div><br>
 
+     <div class="form-row">
      <label for="address">Street Address</label>
-     <input type="address" id="address" placeholder="Optional" name="user-address"><br>
+     <input type="text" id="address" placeholder="Optional" name="user-address">
+   </div><br>
 
+     <div class="form-row">
      <label for="city">City</label>
-     <input type="city" id="city" placeholder="Optional" name="user-city"><br>
+     <input type="text" id="city" placeholder="Optional" name="user-city">
+   </div><br>
 
+     <div class="form-row">
      <label for="state">State</label>
-     <!-- <input type="state" id="state" name="user-state"> -->
      <select id="state" name="user-state">
        <option value="choose-state">Choose State</option>
        <option>New York</option>
        <option>New Jersey</option>
        <option>Connecticut</option>
-     </select><br>
+     </select>
+     </div>
+   <br>
 
+    <div class="zipcode">
+    <div class="form-row">
      <label for="zipcode">Zip Code</label>
-     <input type="zipcode" id="zipcode" placeholder="Optional" name="user-zipcode"><br>
+     <input type="text" id="zipcode" placeholder="Optional" name="user-zipcode">
+   </div></div><br>
+
+     </div>
    </fieldset>
 
 
@@ -65,12 +83,12 @@
    <p>Newsletter format</p>
 
 
+   <input type="radio" id="htmlb" name="htmlb">
+   <label for="htmlb">HTML</label><br>
 
-   <label for="htmlb">HTML</label>
-   <input type="radio" id="htmlb" name="htmlb"><br>
+  <input type="radio" id="plain-text" name="plain-text">
+   <label for="plain-text">Plain text</label><br>
 
-   <label for="plain">Plain text</label>
-   <input type="radio" id="plain-text" name="plain-text"><br>
 
    <p>Other topics you'd like to hear about</p>
 
