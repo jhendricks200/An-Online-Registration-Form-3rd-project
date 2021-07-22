@@ -176,29 +176,30 @@ footer {
 }
 
 @media screen and (min-width: 768px){
-  /* form input,
-  form select {
-       max-width: 80%;
-       display: inline-block;
-       vertical-align: center;
 
-      }
 
-    form label {
-      width: 20%;
-      padding-right: 30px;
-      vertical-align: center;
-    } */
+  .zipcode {
+   display: flex;
+   justify-content:
+   padding: .5em;
+   
+  }
 
-    /* div {
-   display: inline-flex;
-   align-items: center;
-   width: 100%;
- } */
 
- /* .zipcode {
-   width: 35%;
- } */
+  .zipcode > label {
+  padding: .5em 1em .5em 0;
+  flex: 1;
+}
+
+ .zipcode > input {
+  flex: 2;
+}
+
+
+ select {
+  width: unset;
+  flex: 2;
+}
 
  .wrapper {
     background-color: whitesmoke;
