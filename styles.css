@@ -114,7 +114,11 @@ input:focus {
    background-color: lightblue;
 }
 
-.zipcode {
+input, label > zipcode {
+    display:block;
+}
+
+#zipcode {
   width: 50%;
 }
 
@@ -178,13 +182,30 @@ footer {
 @media screen and (min-width: 768px){
 
 
-  .zipcode {
-   display: flex;
-   justify-content:
-   padding: .5em;
-   
+  input, label {
+      display:block;
   }
+input[type=zipcode] {
+  flex: 1
+  width: 25%;
+  justify-content: flex-start;
 
+}
+
+  /* .zipcode {
+   display: flex;
+   justify-content: flex-end;
+   padding: .5em;
+ } */
+
+   /* #zipcode {
+    width: 25%;
+    flex: 2;
+  } */
+
+  form {
+    overflow: hidden;
+  }
 
   .zipcode > label {
   padding: .5em 1em .5em 0;
@@ -192,7 +213,9 @@ footer {
 }
 
  .zipcode > input {
-  flex: 2;
+  flex: 2
+  width: 25%;
+
 }
 
 
