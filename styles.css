@@ -2,6 +2,8 @@
 
 * {
  box-sizing: border-box;
+ margin: 0;
+
 
 }
 
@@ -28,8 +30,9 @@ fieldset {
 }
 
 .header-banner {
+
   padding: 25px;
-  margin: 25px 10px;
+  margin-bottom: 15px;
   background-color: black;
   margin-left: auto;
   text-align: center;
@@ -38,21 +41,24 @@ fieldset {
   width: 100%;
 }
 
+.line2 {
+  border-bottom: 2px solid;
+}
+
 .legend{
    padding: 0px;
    padding-top: 19px;
    padding-bottom: 15px;
-   border-top: 2px solid;
    width: 100%;
    font-weight: bold;
    font-size: 20px;
    }
 
 .header-p {
-  padding: 0px 15px 30px;
+  padding: 8px 15px 30px;
   margin:0px 0px -95px 0px;
   color: lightgray;
-  font-size: 19px;
+  font-size: 15px;
   border-bottom: 5px solid rgba(6,65,90);
  }
 
@@ -66,7 +72,8 @@ fieldset {
 
 .lower-p {
   color: lightgray;
-  font-size: 19px;
+  font-size: 15px;
+  margin-bottom: 8px;
 }
 
 input {
@@ -126,6 +133,12 @@ select {
    width: 100%;
    font-weight: bold;
    font-size: 20px;
+   margin-bottom: 5px;
+ }
+
+ .newsletter-p {
+   margin-top: 8px;
+   margin-bottom: 8px;
  }
 
 
@@ -148,6 +161,10 @@ textarea {
   border-radius: 5px;
   background-color: ghostwhite;
   resize: none;
+}
+
+.text-area-p {
+  margin-bottom: 8px;
 }
 
 button {
@@ -175,6 +192,7 @@ div {
   }
 
 @media screen and (min-width: 768px){
+
  select {
   width: unset;
   flex: 2;
@@ -196,6 +214,8 @@ div {
   #zipcode {
     max-width: 25%;
   }
+
+
 
 
 label {
