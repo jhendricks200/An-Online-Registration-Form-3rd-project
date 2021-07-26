@@ -13,12 +13,13 @@ body {
   overflow-x: hidden;
   font-family: 'Nunito', sans-serif;
   margin-bottom: 100px;
-
-}
+  }
 
 fieldset {
   border: 0;
 }
+
+
 
   /* Main Layout Styles */
 
@@ -33,7 +34,7 @@ fieldset {
 
   padding: 25px;
   margin-bottom: 15px;
-  background-color: black;
+  background-color: #D35400;
   margin-left: auto;
   text-align: center;
   color: white;
@@ -129,12 +130,12 @@ select {
   font-family: 'Nunito', sans-serif;
  }
 
- .newsletter {
+ /* .newsletter {
    width: 100%;
    font-weight: bold;
    font-size: 20px;
    margin-bottom: 5px;
- }
+ } */
 
  .newsletter-p {
    margin-top: 8px;
@@ -150,6 +151,13 @@ input[type="radio"] {
   font-size: 18px;
   }
 
+#textareaform > label {
+  display: block;
+  text-align: right;
+  white-space: nowrap;
+  color: lightgray;
+  font-size: 15px;
+}
 
 
 textarea {
@@ -163,13 +171,24 @@ textarea {
   resize: none;
 }
 
-.text-area-p {
+.labeltextarea {
   margin-bottom: 8px;
+
+}
+
+
+.fieldset-border {
+  background-color: cornsilk;
+}
+
+fieldset label {
+  margin-bottom: 20px;
+  font-size: 15px;
 }
 
 button {
-    background-color: #24d7c9;
-    border: 2px solid #24d7c9;
+    background-color: #DC7633;
+    border: 2px solid ;
     color: white;
     width: 100%;
     padding: 15px 5px;
